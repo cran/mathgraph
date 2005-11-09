@@ -79,7 +79,8 @@ function(formula, data)
 			eye.ext[1,  ] + 1, eye.ext[2,  ] - 1)
 		cterm <- paste(allI.strings, collapse = "")
 	}
-	allterms <- strsplit(cterm, split = "+")
+	allterms <- strsplit(cterm, split = "\\+")#changed by Claus Dethlefsen
+#	allterms <- strsplit(cterm, split = "+") 
 	ans <- NULL
 	adir <- logical(0)
 	for(i in seq(along = allterms)) {
