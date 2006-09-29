@@ -1,12 +1,12 @@
-\name{sort.mathgraph}
-\alias{sort.mathgraph}
+\name{sortmathgraph}
+\alias{sortmathgraph}
 
 \title{ Sort a Mathematical Graph }
 \description{
   Sorts nodes within undirected edges and/or edges by nodes.
 }
 \usage{
-sort.mathgraph(x, nodes = TRUE, edges = TRUE)
+sortmathgraph(x, nodes = TRUE, edges = TRUE)
 }
 
 \arguments{
@@ -35,9 +35,9 @@ sort.mathgraph(x, nodes = TRUE, edges = TRUE)
 
 \examples{
 jjmg <- c(mathgraph(~ 4:2 * 1:3), mathgraph(~ 3:5 / 1:3))
-sort.mathgraph(jjmg)
-sort.mathgraph(jjmg, node=FALSE)
-sort.mathgraph(jjmg, edge=FALSE)
+sortmathgraph(jjmg)
+sortmathgraph(jjmg, node=FALSE)
+sortmathgraph(jjmg, edge=FALSE)
 
 }
 \keyword{ math }

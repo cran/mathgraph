@@ -8,6 +8,6 @@ mathgraph               Create Mathematical Graph
 names.mathgraph         Edge Names in a Mathematical Graph
 plot.mathgraph          Plot a Mathematical Graph
 print.mathgraph         Print a Mathematical Graph
-sort.mathgraph          Sort a Mathematical Graph
+sortmathgraph           Sort a Mathematical Graph
 stable.apply            Apply with Stable Dimensions
 unique.mathgraph        Unique Edges of a Mathematical Graph

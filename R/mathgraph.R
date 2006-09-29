@@ -543,7 +543,7 @@ function(x, prefix.node = if(is.character(xu)) "" else "node", ...)
 	invisible(x)
 }
 
-"sort.mathgraph" <-
+"sortmathgraph" <-
 function(x, nodes = TRUE, edges = TRUE)
 {
 	dir <- attr(x, "directed")
