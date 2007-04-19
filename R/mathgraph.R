@@ -174,7 +174,8 @@ function(x)
 function(string, nesting.ok = FALSE)
 {
 	if(nesting.ok != FALSE) .NotYetUsed("nesting.ok != FALSE")
-	xx <- regexpr(pattern = "I\([^)]*\)", text = string)
+#	xx <- regexpr(pattern = "I\([^)]*\)", text = string)
+	xx <- regexpr(pattern = "I([^)]*)", text = string)
 	if(xx[1] == -1)
 		return(NULL)
 	# Test the ends of the pattern found
