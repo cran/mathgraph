@@ -9,8 +9,8 @@
   the start and end node for each edge in the graph.
 }
 \usage{
-incidmat(x, ...)
-incidmat.mathgraph(x, expand=TRUE, general=FALSE, ...)
+incidmat(x, \dots)
+\method{incidmat}{mathgraph}(x, expand=TRUE, general=FALSE, \dots)
 
 is.incidmat(x)
 }

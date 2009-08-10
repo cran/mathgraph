@@ -10,8 +10,8 @@
   Returns a path, if it exists, from the \code{start} to the \code{end}.
 }
 \usage{
-getpath(x, start, end, ...)
-getpath.mathgraph(x, start, end, ...)
+getpath(x, start, end, \dots)
+\method{getpath}{mathgraph}(x, start, end, \dots)
 }
 %- maybe also `usage' for other objects documented here.
 \arguments{

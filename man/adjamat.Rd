@@ -9,8 +9,8 @@
   matrix of a numbered graph.
 }
 \usage{
-adjamat(x, ...)
-adjamat.mathgraph(x, general=FALSE, ...)
+adjamat(x, \dots)
+\method{adjamat}{mathgraph}(x, general=FALSE, \dots)
 
 is.adjamat(x)
 }

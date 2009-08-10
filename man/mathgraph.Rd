@@ -13,8 +13,8 @@
 }
 \usage{
 mathgraph(formula, directed = FALSE, data = sys.parent())
-length.mathgraph(x)
-c.mathgraph(...)
+\method{length}{mathgraph}(x)
+\method{c}{mathgraph}(...)
 
 is.mathgraph(x)
 }
