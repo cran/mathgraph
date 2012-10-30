@@ -1,8 +1,8 @@
-2164f54c7dfc1d317fbd0ea65188fb96 *DESCRIPTION
+8b277da3e099e3a108603608307287d8 *DESCRIPTION
 9107dda67a897fc0957ed5451094f85a *INDEX
 ca622e6c68ed33ccbeb93c9e2da177e1 *LICENSE
-9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
-5394cdab7329d5e67e7652f8835f599d *R/mathgraph.R
+7a19fee4c642dcdee75ed9e371a6043e *NAMESPACE
+76ca2609d0b256f3d7b1bffc7e348ed6 *R/mathgraph.R
 02f2550c02aad55749df7ad70d9bce75 *man/adjamat.Rd
 d17f33acad5817b1f4cbdd612890bf83 *man/alldirected.Rd
 11e61ee70f3db5b786a6db32f18f02b4 *man/build.mathgraph.Rd

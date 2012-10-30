@@ -235,11 +235,11 @@ function(x, start, end, ...)
 				}
 				if(has.names) {
 				  return(mathgraph( ~ node.names[prev[path]]/
-				    node.names[tset[path]], dir = TRUE))
+				    node.names[tset[path]], directed = TRUE))
 				}
 				else {
 				  return(mathgraph( ~ prev[path]/tset[path], 
-				    dir = TRUE))
+				    directed = TRUE))
 				}
 			}
 			tset <- c(tset, newn)
@@ -318,11 +318,11 @@ function(x, start, end, ...)
 				}
 				if(has.names["nodes"]) {
 				  ans <- mathgraph( ~ node.names[prev[path]]/
-				    node.names[tset[path]], dir = TRUE)
+				    node.names[tset[path]], directed = TRUE)
 				}
 				else {
 				  ans <- mathgraph( ~ prev[path]/tset[path], 
-				    dir = TRUE)
+				    directed = TRUE)
 				}
 				if(has.names["edges"]) {
 				  names(ans) <- enames[edges[path]]
