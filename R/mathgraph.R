@@ -70,7 +70,7 @@ function(formula, data)
 		Iexpr <- substring(cterm, eyes[, 1] + 2, eyes[, 2] - 1)
 		for(i in 1:nI) {
 			this.val <- eval(parse(text = Iexpr[i]), data)
-			assign(Inames[i], this.val, pos = 1)
+			#assign(Inames[i], this.val, pos = 1) # changed by Claus Dethlefsen
 		}
 		eye.ext <- matrix(c(0, t(eyes), nchar(cterm) + 2), nrow = 2)
 		allI.strings <- character(2 * nI + 1)

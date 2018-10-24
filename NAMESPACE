@@ -1,5 +1,23 @@
-# Default NAMESPACE created by R
 # Remove the previous line if you edit this file
 
 # Export all names
 exportPattern(".")
+importFrom("graphics", "arrows", "box", "plot", "segments", "text")
+
+S3method(unique,mathgraph)
+S3method(print,mathgraph)
+S3method('[',mathgraph)
+S3method('[<-',mathgraph)
+S3method(adjamat,mathgraph)
+S3method(alldirected,default)
+S3method(alldirected,mathgraph)
+S3method(c,mathgraph)
+S3method(getpath,adjamat)
+S3method(getpath,default)
+S3method(getpath,incidmat)
+S3method(getpath,mathgraph)
+S3method(incidmat,mathgraph)
+S3method(length,mathgraph)
+S3method(names,mathgraph)
+S3method('names<-',mathgraph)
+S3method(plot,mathgraph)
